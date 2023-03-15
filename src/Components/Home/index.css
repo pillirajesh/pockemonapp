@@ -1,0 +1,46 @@
+.sepearation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-container {
+  min-width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.heading {
+  color: blue;
+  font-family: "roboto";
+  font-weight: bold;
+  font: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.list-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  min-width: 40%;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 15px;
+  color: #000;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 30px;
+  margin-left: 15px;
+}

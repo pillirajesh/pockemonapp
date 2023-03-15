@@ -1,0 +1,38 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+  margin-left: 50px;
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+
+.name {
+  font-size: 25px;
+  font-family: "roboto";
+  color: rgb(103, 243, 48);
+  font-weight: bold;
+}
+
+.each-details-container {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: "roboto";
+  color: red;
+  font-style: italic;
+}
+
+.details-container {
+  padding-left: 0px;
+
+  width: 100%;
+}

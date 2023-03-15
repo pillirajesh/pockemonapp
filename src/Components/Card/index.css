@@ -1,0 +1,22 @@
+.card {
+  background-color: blueviolet;
+  min-width: 20%;
+  height: 80px;
+  margin: auto;
+  border-radius: 5px;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.card-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-family: "roboto";
+}
