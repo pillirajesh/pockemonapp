@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   border: none;
+  box-shadow: 1px 10px 10px rgb(166, 161, 161);
 }
 
 .card-button {
@@ -19,4 +20,6 @@
   color: white;
   font-size: 22px;
   font-family: "roboto";
+  cursor: pointer;
+  outline: none;
 }

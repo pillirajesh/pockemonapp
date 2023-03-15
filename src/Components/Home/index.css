@@ -31,16 +31,17 @@
 
 .button {
   background-color: transparent;
-  border: 1px solid blue;
+  border: 2px solid blue;
   border-radius: 5px;
   padding: 10px;
   font-family: "roboto";
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 17px;
   color: #000;
   width: 100px;
   cursor: pointer;
   outline: none;
   margin-right: 30px;
   margin-left: 15px;
+  font-style: italic;
 }

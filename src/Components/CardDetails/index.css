@@ -3,16 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid rgb(62, 94, 211);
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 60%;
   margin-left: 50px;
+  box-shadow: 2px 15px 15px gray;
 }
 .image {
   height: 250px;
   width: 250px;
+  margin: 0px;
 }
 
 .name {
@@ -20,6 +22,7 @@
   font-family: "roboto";
   color: rgb(103, 243, 48);
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .each-details-container {
@@ -33,6 +36,5 @@
 
 .details-container {
   padding-left: 0px;
-
   width: 100%;
 }
