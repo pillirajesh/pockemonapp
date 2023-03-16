@@ -3,13 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(62, 94, 211);
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 60%;
   margin-left: 50px;
-  box-shadow: 2px 15px 15px gray;
+  box-shadow: 2px 15px 20px gray;
 }
 .image {
   height: 250px;

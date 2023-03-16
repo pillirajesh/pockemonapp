@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import "./index.css";
 
 const CardDetails = ({ detail }) => {
-  console.log(detail);
   const [newData, setNewData] = useState([]);
   const [img, setImage] = useState();
   const [stats, setStats] = useState([]);
@@ -16,7 +15,6 @@ const CardDetails = ({ detail }) => {
     setNewData(data);
     setImage(newData.sprites.front_default);
     setStats(newData.stats);
-    console.log(newData);
     setName(newData.name.toUpperCase());
   };
 
